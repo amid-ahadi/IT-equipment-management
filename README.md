@@ -94,41 +94,65 @@ USE data_base;
 Configure db.php
 
 $host = 'localhost';
+
 $username = 'data_base'; // your DB username
+
 $password = 'your_db_pass'; // your DB password
+
 $dbname = 'data_base';
 
+
 ----------------
+
 Open in browser
+
 Go to: http://localhost/eito-code/login.php
+
 Login
+
 Username: admin
+
 Password: 123456 (change after first login!)
+
 🔒 Security Notes
+
 ✅ All inputs sanitized with htmlspecialchars() and PDO
+
 ✅ Passwords never stored in plain text
+
 ✅ CAPTCHA prevents automated login attempts
+
 ✅ No session hijacking — uses user_id and username only
+
 ✅ No external libraries — lightweight and secure
+
 ⚠️ Never expose this system on public internet without HTTPS and firewall rules. Designed for local/internal use. 
 
+
 💡 Why This System?
+
 This is not a tutorial — it’s a production-ready tool used in real repair shops and IT departments in Iran.
+
 It was built to replace Excel sheets and paper logs — now tracking thousands of cartridges with zero errors.
 
 📜 License
+
 MIT © [Amid Ahadi] — Feel free to use, modify, and distribute.
+
 Just credit the original author if you redistribute.
 
+
 👥 Author
+
 Developed by: [Amid Ahadi]
+
 Contact: amid.ahadi@gmail.com
+
 Website: c-security.ir
+
 Location: Iran 🇮🇷
+
 Built with ❤️ for local IT teams
-
-
-
 
 ---
 
