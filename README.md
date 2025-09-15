@@ -31,22 +31,39 @@
 
 ## 📂 Project Structure
 ├── db.php # Database connection (PDO)
+
 ├── login.php # Secure login with CAPTCHA
+
 ├── index.php # Main dashboard
+
 ├── add.php # Add single cartridge
+
 ├── add_bulk.php # Process bulk additions
+
 ├── manage_ajax.php # AJAX handler for adding departments/stations/types
+
 ├── get_options.php # Fetch dropdown options (AJAX)
+
 ├── recent.php # Get last 10 records (AJAX)
+
 ├── report.php # Advanced reporting with filters
+
 ├── charts.php # Chart-only view (optional)
+
 ├── change_password.php # Change user password securely
+
 ├── logout.php # Session destroy
+
 ├── generate_captcha.php # Generate 4-digit CAPTCHA
+
 ├── style.css # Modern RTL styling
+
 ├── script.js # All frontend logic (AJAX, modals, filters)
+
 ├── install.sql # Full database schema + sample data
+
 ├── README.md # This file!
+
 
 
 ---
