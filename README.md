@@ -70,14 +70,14 @@
 
 ## 🚀 Installation Guide
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/IT-equipment-management.git
+|1. **Clone the repo**
+|   ```bash
+|   git clone https://github.com/yourusername/IT-equipment-management.git
    
-Place folder in your web server root
-(e.g., htdocs/Eito-code for XAMPP)
-Create database
-Run install.sql in phpMyAdmin:
+|Place folder in your web server root
+|(e.g., htdocs/Eito-code for XAMPP)
+|Create database
+|Run install.sql in phpMyAdmin:
 
 CREATE DATABASE IF NOT EXISTS data_base CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE data_base;
